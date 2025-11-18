@@ -1,24 +1,23 @@
 body {
-    box-sizing: border-box;
+    margin: 0;
+}
+.registration-page {
     text-align: center;
     margin-top: 40px;
 }
-
-input {
+.registration-page input {
     width: 300px;
     height: 40px;
     margin-bottom: 10px;
 }
-
-#register-btn {
+.registration-page #register-btn {
     width: 300px;
     height: 40px;
     background-color: #46a358;
     color: white;
     border: none;
-    cursor: pointer;
 }
-body>button {
+.registration-page>button {
     width: 300px;
     height: 40px;
 }
