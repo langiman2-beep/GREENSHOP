@@ -21,3 +21,58 @@ body {
     width: 300px;
     height: 40px;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    font-size: 0;
+    padding: 20px 0;
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 155px;
+    font-size: 16px;
+}
+.header-nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 155px);
+    text-align: center;
+    font-size: 16px;
+}
+.nav-list {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-list li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.nav-list a.active {
+    border-bottom: 2px solid #46a358;
+    padding-bottom: 4px;
+}
+.login-btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    background-color: #46a358;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-btn img {
+    vertical-align: middle;
+}
