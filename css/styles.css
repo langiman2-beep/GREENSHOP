@@ -1,15 +1,18 @@
 body {
     margin: 0;
 }
+
 .registration-page {
     text-align: center;
     margin-top: 40px;
 }
+
 .registration-page input {
     width: 300px;
     height: 40px;
     margin-bottom: 10px;
 }
+
 .registration-page #register-btn {
     width: 300px;
     height: 40px;
@@ -17,14 +20,17 @@ body {
     color: white;
     border: none;
 }
+
 .registration-page>button {
     width: 300px;
     height: 40px;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .header {
     font-size: 0;
     padding: 20px 0;
@@ -36,6 +42,7 @@ body {
     width: 155px;
     font-size: 16px;
 }
+
 .header-nav {
     display: inline-block;
     vertical-align: middle;
@@ -43,6 +50,7 @@ body {
     text-align: center;
     font-size: 16px;
 }
+
 .nav-list {
     display: inline-block;
     vertical-align: middle;
@@ -50,21 +58,25 @@ body {
     padding: 0;
     list-style: none;
 }
+
 .nav-list li {
     display: inline-block;
     margin: 0 20px;
 }
+
 .nav-list a {
     text-decoration: none;
     color: #3d3d3d;
 }
+
 .nav-list a.active {
     border-bottom: 2px solid #46a358;
     padding-bottom: 4px;
 }
+
 .login-btn {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     margin-left: 40px;
     background-color: #46a358;
     border: none;
@@ -76,3 +88,67 @@ body {
 .login-btn img {
     vertical-align: middle;
 }
+
+.hero {
+    margin-top: 40px;
+    font-size: 0;
+}
+
+
+.hero-text,
+.hero-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    font-size: 16px;
+}
+
+.hero-subtitle {
+    font-size: 14px;
+    color: #3d3d3d;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #46a358;
+}
+
+.hero p {
+    color: #727272;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    background-color: #46a358;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero-image {
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.nav-list a:hover {
+    color: #46a358;
+}
+
+.login-btn:hover {
+    background-color: #3d8c49;
+}
+
+.hero-btn:hover {
+    background-color: #3d8c49;
+}
+
